@@ -1,0 +1,114 @@
+// 1. git --version
+
+// 2. git config --global user.name "Shivangi Kumari"
+// 2. git config --global user.email "12shivangikumari@gmail.com"
+
+// 2. git config --global user.name "Shivangi Kumari"
+// 2. git config --global user.email "shivangikumari.18pixels@gmail.com"
+
+// agar email nhi daalna toh check krlena kis account mai sara update ho rha hai
+// 3. git config --list
+// or
+// 3. git config --global user.name
+// 3. git config --global user.email
+
+// ----------------------------------------------------------------------------------------
+
+// make sure krna correct folder mai hai
+// ye command hme sari files show krta hai inside a folder
+// 4. ls
+// hidden files ke liye
+// 5. ls -a
+
+// github par repository hai tbh ye steps
+// 6. git clone PASTE REPO LINK
+// 7. git status
+
+// folder mai kuch change krne ke baad
+// 8. git add .
+// 9. git commit -m "SOME MESSAGE"
+// 9. git status
+
+// but ye sab changes github pr show nhi hoga
+// 10. git push origin main
+// ----------------------------------------------------------------------------------------
+
+// starting laptop se kar rhe github pe koi repo bna kar nhi
+// ek new folder bnao aur check kro wo git repo nhi hai
+// 11. ls -a
+
+// usko git repo bnao
+// 11. git init
+// 11. ls -a
+
+// folder ke andar changes kro
+// 11. git status
+// 11. git add .
+// 11. git commit -m "SOME MESSAGE"
+// 11. git status
+
+// ab iss folder ko github pr upload krna hai toh - github pr jakr ek new repo bnana hoga
+// aur readme file add mat krna
+
+// 12. git remote add origin PASTE NEW REPO LINK
+// 13. git remote -v (to verify remote)
+// 13. git remote remove origin
+// 14. git branch (to check branch)
+// 15. git branch -M main (to rename branch)(mujhe lga tha ye step krne ki jrurat nhi kuki by default shi jagah hi push hoga)
+// 16. git push origin main
+
+// agar same branch mai hi baar baar push krna hai toh -u then next time just push
+// 16. git push -u origin main
+// 16. git push
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// GIT BRANCH
+
+// 17. git branch (to check branch)
+// 18. git branch -M NEW BRANCH NAME (to rename branch)
+// 19. git checkout THAT BRANCH NAME (to move to that branch)
+// 20. git checkout -b NEW BRANCH NAME (to create new branch)
+// 21. git branch -d THAT BRANCH NAME (to delete branch)
+// git branch -a (This will show both local and remote branches)
+
+// if we create 2-3 branches and make changes in that folder
+// and want to upload it to github then
+// 22. git push origin THAT BRANCH NAME
+// ----------------------------------------------------------------------------------------------------------------------
+
+// BRANCH MERGE
+
+// 23. git diff THAT BRANCH NAME (to compare)
+// 24. git merge THAT BRANCH NAME (to merge 2 branches)
+// or
+// 25. Create a pull request
+// pull request krne ke baad github pr toh merge hojayega but local mai nhi hoga
+// 26. git pull origin main
+// ----------------------------------------------------------------------------------------------------------------------
+
+// UNDOING CHANGES
+
+// if git add . command is run then
+// 27. git reset FILE NAME
+// or
+// 28. git reset
+
+// if git add . and git commit -m "SOME MESSAGE" command is run then
+// commited changes for one commit
+// 29. git reset HEAD~1
+
+// commited changes for many commits
+// 30. git log (to check all commits)
+// 31. git reset PASTE COMMIT HASH CODE (changes removed from git)
+// 32. git reset --hard PASTE COMMIT HASH CODE (changes removed from git and vscode too)
+
+// ----------------------------------------------------------------------------------------------------------------------
+
+// FORK
+// copying another repo code on our github account
+
+// .gitignore
+// files that you don't want to put on github add it in .gitignore file by name
+
+// git submodule add <url> Netflix Clone

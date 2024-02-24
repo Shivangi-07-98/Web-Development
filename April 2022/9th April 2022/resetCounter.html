@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+
+</head>
+
+<style>
+    .border {
+        border: 2px solid gray;
+    }
+
+    .border-small {
+        border: 1px solid gray;
+    }
+
+    .counter {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .counter>* {
+        border: 2px solid gray;
+        padding: px;
+    }
+    .resetBox {
+         margin-bottom: 25px;
+    }
+</style>
+
+<body>
+
+    <div id="root"></div>
+    <script type="text/babel">
+
+        // sibling 1
+        function ResetBoxes(props) {
+            const resetParentCounter = props.resetParentCounter;
+
+            // 1
+            const [countNumberVal, setcountNumberVal] = React.useState(""); 
+            const [countVal, setCountVal] = React.useState(""); 
+
+            const setInput1 = (e) => {
+                setcountNumberVal(e.target.value);
+            }
+
+            const setInput2 = (e) => {
+                setCountVal(e.target.value);
+            }
+
+            const resetCounter = () => {
+                console.log("Counter Number: " + countNumberVal);
+                console.log("Count val: " + countVal);
+                resetParentCounter(countNumberVal, countVal);
+            }
+
+
+            return (
+                <div className="resetBox">
+                    <h2>Reset Counter</h2>
+                    <div>Counter Number: <input value={countNumberVal} onChange={setInput1}/></div>
+                    <div>Value: <input value={countVal} onChange={setInput2}/></div>
+                    <button onClick={resetCounter}>Reset Counter</button>
+                </div>
+            )
+
+        }
+
+        // sibling 2
+        function Counters(props) {
+            let resetCounterNum = props.resetCounterNum;
+            let resetCounterValue = props.resetCounterValue;
+            return (
+                <div class="counter">
+                    <Counter number={1} resetCounterValue={resetCounterValue} resetCounterNum={resetCounterNum}></Counter>
+                    <Counter number={2} resetCounterValue={resetCounterValue} resetCounterNum={resetCounterNum}></Counter>
+                    <Counter number={3} resetCounterValue={resetCounterValue} resetCounterNum={resetCounterNum}></Counter>
+                </div>
+            )
+        }
+
+        // child of sibling 2
+        function Counter(props) {
+            let [count, updateCount] = React.useState(0);
+            let number = props.number;
+
+            if(number == props.resetCounterNum && count != props.resetCounterValue){
+                updateCount(props.resetCounterValue);
+            }
+
+            let Increase = () => {
+                updateCount(count + 1)
+            }
+
+            let Decrease = () => {
+                updateCount(count - 1)
+            }
+
+
+            return (
+                <div>
+                    <h3>Counter Number {number}</h3>
+                    <button onClick={Increase}>+</button>
+                    <p>{count}</p>
+                    <button onClick={Decrease}>-</button>
+                </div>
+            )
+        }
+
+        // parent
+        function ResetCounters() {
+            let [resetCounterNum, setResetCounterNum] = React.useState("");
+            let [resetCounterValue, setResetCounterValue] = React.useState("");
+
+            function resetParentCounter(counterNumber, curCountVal){
+                console.log("parent " + counterNumber + " : " + curCountVal);
+                setResetCounterNum(counterNumber);
+                setResetCounterValue(curCountVal);
+            }
+            return (
+                <div>
+
+                    <h1>Advanced Counter App</h1>
+                    <div className="border"></div>
+                    <ResetBoxes resetParentCounter={resetParentCounter}></ResetBoxes>
+                    <div className="border-small"></div>
+                    <Counters resetCounterNum={resetCounterNum} resetCounterValue={resetCounterValue}></Counters>
+
+                </div>
+            )
+        }
+
+        ReactDOM.render(<ResetCounters></ResetCounters>, document.querySelector("#root"));
+    </script>
+
+</body>
+
+</html>

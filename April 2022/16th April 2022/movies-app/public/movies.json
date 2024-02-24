@@ -1,0 +1,63 @@
+{"movies": [
+    {
+        "title": "Harry Potter",
+        "genre": "Adventure",
+        "stock": "32",
+        "Ratings": "9.6"
+    },
+    {
+        "title": "Terminator",
+        "genre": "Action",
+        "stock": "24",
+        "Ratings": "8.6"
+    },
+    {
+        "title": "Gone Girl",
+        "genre": "Thriller",
+        "stock": "12",
+        "Ratings": "7.6"
+    },
+    {
+        "title": "Aquaman",
+        "genre": "Thriller",
+        "stock": "14",
+        "Ratings": "7"
+    },
+    {
+        "title": "Sanctum",
+        "genre": "Adventure",
+        "stock": "8",
+        "Ratings": "6.5"
+    },
+    {
+        "title": "Get Out",
+        "genre": "Mystery",
+        "stock": "7",
+        "Ratings": "8.2"
+    },
+    {
+        "title": "Hangover",
+        "genre": "Comedy",
+        "stock": "32",
+        "Ratings": "8.5"
+    },
+    {
+        "title": "Regression",
+        "genre": "Mystery",
+        "stock": "4",
+        "Ratings": "7"
+    },
+    {
+        "title": "Colonia",
+        "genre": "Mystery",
+        "stock": "3",
+        "Ratings": "6.8"
+    },{
+        "title": "Mission Impossible",
+        "genre": "Action",
+        "stock": "28",
+        "Ratings": "8.6"
+    }
+]
+
+}

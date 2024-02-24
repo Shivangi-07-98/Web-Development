@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="root"></div>
+    <script type="text/babel">
+       
+        function Counter() {
+
+            let [count, changeCount] = React.useState(0);
+
+            let Increase = () => {
+                changeCount(count + 1);
+            }
+
+            let Decrease = () => {
+                changeCount(count - 1);
+            }
+
+            return(
+                <div>
+                    <button onClick={Increase}>+</button>
+                    <p>{count}</p>
+                    <button onClick={Decrease}>-</button>
+                    </div>
+            )
+        }
+
+
+        function Counters () {
+            return (
+            <div>
+                <Counter></Counter>
+                <Counter></Counter>
+                <Counter></Counter>
+                <Counter></Counter>
+                <Counter></Counter>
+                </div>
+            )
+        }
+
+        ReactDOM.render(<Counters></Counters>, document.querySelector("#root"));
+    </script>
+    
+</body>
+</html>

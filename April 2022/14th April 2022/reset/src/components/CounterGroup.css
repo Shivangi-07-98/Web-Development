@@ -1,0 +1,11 @@
+.counter-group {
+    display: flex;
+    border: 1px solid gray;
+    justify-content: center;
+}
+
+.counter {
+    margin: 10px;
+    width: 15rem;
+    border: 1px solid gray;
+}

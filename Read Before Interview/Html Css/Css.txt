@@ -1,0 +1,10 @@
+1. background-position -
+The background-position property can take one or two values.
+If you provide a single value, it is assumed to be the horizontal position. The vertical position is set to the center by default.
+If you provide two values, the first value corresponds to the horizontal position (from the left), and the second value corresponds to the vertical position (from the top). You can provide either one value (horizontal position) or two values (horizontal and vertical positions) to the background-position property. However, providing four values is not valid for background-position. It only takes one or two values.
+
+2. a[href^='http'] selects all <a> elements whose href attribute starts with "http".
+   a[href$='.pdf'] selects all <a> elements whose href attribute ends with ".pdf".
+
+Responsive Guide
+1. always do font size in rem not in pixels

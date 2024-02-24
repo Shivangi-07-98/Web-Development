@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+
+</head>
+
+<body>
+
+    <div id="root"></div>
+    <script type="text/babel">
+
+function InputBox (props) {
+    let [cValue, setValue] = React.useState("");
+    const setInputData = function(e) {
+        // console.log(e.target.value);
+        setValue(e.target.value);
+    }
+    const addTask = function() {
+        console.log("currentTask" + cValue);
+        props.parentGetTask(cValue);
+    }
+            return(
+                <div>
+
+                    <input type="text" value={cValue} onChange={setInputData}/>                  
+                    <button onClick={addTask}>Add Task</button>
+
+                    </div>
+            )
+        }
+
+        function ListItems (props) {
+            let tasks = props.tasks;
+            return(
+                <div>
+                    <ul>
+                        {
+                            tasks.map(function(task, idx){
+                            return <li key={idx}>{task}</li>
+
+                        })
+                    }
+                        </ul>
+
+                    </div>
+            )
+        }
+
+        function Todo () {
+            let [tasks, updatetasks] = React.useState([]);
+            const getTask = (currentTask) => {
+                console.log("in Todo component" + currentTask);
+
+                let newTaskArr = [...tasks];
+                newTaskArr.push(currentTask);
+                updatetasks(newTaskArr);
+            }
+            return(
+                <div>
+                    <h1>Todo App</h1>
+                    <InputBox parentGetTask={getTask}></InputBox>
+                    <ListItems tasks={tasks}></ListItems>
+
+                    </div>
+            )
+        }
+
+
+        ReactDOM.render(<Todo></Todo>, document.querySelector("#root"));
+    </script>
+    
+</body>
+</html>
