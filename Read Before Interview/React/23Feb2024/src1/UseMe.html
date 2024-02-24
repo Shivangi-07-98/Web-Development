@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <!-- to convert jsx to js -->
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+  <script type="text/babel">
+    // react code
+    // JSX -> html + javascript
+
+    // component
+    // function name starts with capital letter
+    function Hello(){
+      return <h1>Sample</h1>
+    }
+
+    // get html from Hello component and put it inside root
+    ReactDOM.render(<Hello></Hello>, document.querySelector("#root"));
+  </script>
+
+</body>
+</html>
