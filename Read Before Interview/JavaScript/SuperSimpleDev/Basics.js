@@ -32,3 +32,31 @@ console.log(Math.round(2.2));
 // 3. + -
 // 4. Comparison operators
 // 5. Logical operators like &&, || 
+
+// method
+// When we save functions inside an object it is called a method.
+
+// JSON
+// const jsonString = JSON.stringify(name);
+// JSON.parse(jsonString);
+
+// localStorage
+// it only supports strings
+// localStorage.setItem('firstname', 'shivangi');
+// localStorage.getItem('firstname');
+
+// localStorage.setItem('score', JSON.stringify(score));
+// JSON.parse(localStorage.getItem('score'));
+
+// const message = object1.message;
+// const {message} = object1;
+// this will take the message property out of object 1 and save it in a variable called message
+
+// const object2 = {
+//   // message: message
+//   message
+// };
+// both are same
+
+// Number()
+// converts string into number
