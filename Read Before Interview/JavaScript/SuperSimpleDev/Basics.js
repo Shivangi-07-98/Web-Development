@@ -60,3 +60,5 @@ console.log(Math.round(2.2));
 
 // Number()
 // converts string into number
+// String()
+// converts number into string
