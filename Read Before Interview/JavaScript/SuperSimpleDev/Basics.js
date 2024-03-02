@@ -62,3 +62,15 @@ console.log(Math.round(2.2));
 // converts string into number
 // String()
 // converts number into string
+
+// splice(1, 2)
+// deletes the value in an array 1st value is index, 2nd value is how many to delete
+// array.splice(startIndex, deleteCount, item1, item2, ...)
+// item1, item2, ... The elements to add to the array at the startIndex after deleting elements.
+
+// slice()
+// makes copy of an array
+
+// continue;
+// skips 1 iteration
+// in a while loop if we use continue always do the increment step manually or above continue;
