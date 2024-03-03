@@ -74,3 +74,8 @@ console.log(Math.round(2.2));
 // continue;
 // skips 1 iteration
 // in a while loop if we use continue always do the increment step manually or above continue;
+
+// setTimeout(function(){
+//    console.log('timeout');
+// }, 3000);
+// setTimeout will wait for 3 sec and then call this function 
