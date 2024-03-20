@@ -1,1 +1,36 @@
 React is a library not a framework
+
+React directly dom ko affect nhi karta hai performance ko badhane ke liye wo virtual dom par kaam karta hai
+
+Hooks - 
+useState
+useEffect
+useContext
+useReducer
+useMemo
+useCallback
+useRef    
+class based component
+Mounting
+Updating
+Unmounting
+
+Q. State management
+
+Q. Custom Hooks. When to use it? Write code.
+
+Q. Lazy Loading
+
+Q. Virtual DOM
+
+Q. server side rendering vs client side rendering
+
+Q. Routing
+protected routes
+dynamic routing
+
+Q. Testing
+unit testing
+test cases
+
+Q.  

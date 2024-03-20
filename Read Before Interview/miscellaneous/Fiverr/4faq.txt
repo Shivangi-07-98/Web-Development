@@ -1,0 +1,42 @@
+faq section
+What technologies do you use?
+I use HTML, CSS, JavaScript, React, Vue etc.
+
+Can you design my website from scratch?
+Yes, I can design your website from scratch. I can also work with your existing designs or help you refine your ideas.
+
+Can you convert my Figma designs to HTML?
+Yes, I can convert your Figma designs to HTML. I can also help you optimize your designs for web development.
+
+How can I ensure that my website is responsive?
+I use responsive web design principles to ensure that your website looks great on all devices, from desktops to smartphones. I will also test your website on different devices before I deliver it to you.
+
+Do you offer any revisions?
+Yes, I offer revisions to ensure that you are happy with the final product. However, please note that there is a limit to the number of revisions that I can offer.
+
+Do you have a portfolio?
+Yes, I have a portfolio of my work that you can view on my website.
+
+How long will it take to complete my project?
+The time it takes to complete your project will depend on the complexity of your requirements. However, I will provide you with an estimated timeline in my proposal.
+
+what if I don't find what I'm looking for in your description?
+Programming Tech is so Advanced Even the Frontend has many things which I can't all list here. Kindly Text me what is your requirement.
+
+What if I only wanted to change something in my already existing App?
+Text me there will be a customized price for your solution.
+
+Is your Apps will be Responsive?
+All of our Web Application Will be responsive.
+
+What if I don't like Something you make?
+It can be revised how many times you want For Standard and premium packs.
+
+Do you also provide back end services in this gig?
+NO. But if you also want back end services for your website then let me know in the inbox first.
+
+How do you make web animations ?
+I make stunning web animations using CSS3, gsap.js and three.js
+
+What if I don't have a UI design for my web pages?
+Don't worry. I am also an amazing UI/UX designer. You can ask me to design an interactive UI and UX design for your website. But it will cost you additionally.

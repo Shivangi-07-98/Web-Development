@@ -1,0 +1,10 @@
+Javascript is a synchronous single-threaded language
+
+Everything in javascript happens inside an execution context
+ 
+execution context
+global code/global area - piece of code that is not inside another function
+ye pehle run hota hai
+uske liye global execution context bnta hai
+
+  
