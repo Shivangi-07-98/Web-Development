@@ -1,0 +1,14 @@
+lexical scope : variables that are outside a function are available for it
+closure : variables outside a function are available for it even if outer function is removed from the stack. closure is a feature of js
+
+*koi bhi outer function agar remove ho raha hai toh apne variable andar wale function ke closure ko de deta hai
+
+Task
+- independent task : serially or parallely -> best way is to do it parallely (task)
+- dependent task : serially (task)
+
+Functions
+- synchronous : the function in which all the lines are executed in a serial order
+asynchronous : the function in which the intial and later part is executed initially and the between part is executed later
+
+When you have to do dependent tasks with async functions -> order of async function should be in serial

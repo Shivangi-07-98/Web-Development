@@ -1,0 +1,25 @@
+var
+console.log(x); // undefined
+var x = 5;
+console.log(x); // 5
+
+let
+console.log(x); // ReferenceError: Cannot access 'x' before initialization
+let x = 5;
+console.log(x); // 5
+
+const
+console.log(x); // ReferenceError: Cannot access 'x' before initialization
+const x = 5;
+console.log(x); // 5
+
+
+var:
+var is also hoisted to the top of its scope when the code is run.
+Unlike const and let, var is initialized with (undefined) before its actual declaration in the code.
+So, you can access var before it's declared, but its value will be undefined until it's explicitly assigned a value.
+
+const and let:
+Both const and let are hoisted to the top of their block scope when the code is run.
+However, their values aren't set until the actual declaration line in the code.
+This means you can't access them before they are declared, or you'll get an error.

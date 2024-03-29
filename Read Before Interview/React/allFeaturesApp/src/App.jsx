@@ -1,8 +1,17 @@
 import React from 'react'
+import LearnHooks from './component/LearnHooks'
+import {LearnExport} from './component/LearnExport'
+import {ImageSlider} from './component/ImageSlider'
 
 function App() {
+  const country = "Geneva"
   return (
-    <div>App</div>
+    <>
+    {/* <LearnHooks country='India'/> */}
+    <LearnHooks country={country}/>
+    <LearnExport/>
+    <ImageSlider/>
+    </>
   )
 }
 

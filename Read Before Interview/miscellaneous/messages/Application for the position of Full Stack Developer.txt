@@ -7,9 +7,7 @@ I am writing to express my keen interest in the mern/full stack Developer positi
 
 Also, here's a little about myself:
 
-I'm Shivangi Kumari currently working as a Frontend Developer in 18 Pixels India Pvt. Ltd.
-Prior to this I've worked as a Web Developer intern in Pepcoding for 6 months.
-I hold a Btech degree from Jss Academy of Technical Education, Noida.
+I'm Shivangi Kumari, and I have over a year of experience, currently working as a Frontend Developer at 18 Pixels India Pvt. Ltd. Additionally, I've worked on freelance projects. Prior to this, I worked as a Web Developer intern at Pepcoding for 6 months. I hold a BTech degree from JSS Academy of Technical Education, Noida.
 
 My Tech Skills: Javascript, HTML5, CSS3, React.js, Redux, Tailwind CSS, sass/scss, Bootstrap, Java, DSA, Git, Github.
 

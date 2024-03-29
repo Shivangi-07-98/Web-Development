@@ -1,0 +1,45 @@
+var let const
+var (function scope) let (block scope) const (block scope)
+Only var can be redeclared, let const cannot be redeclared
+var and let can be reassigned the values but const cannot be
+let and const has temporal dead zone and var does not have temporal dead zone
+
+****var ka function scope hai if-else block se confuse mat hona
+for eg1-
+function fn(){
+  var a = 10;
+  console.log("13", a);
+  a++;
+  if(true){
+    console.log("16", a);
+    var a = 30;
+    console.log("18", a);
+  }
+  console.log("20", a);
+}
+fn();
+
+13 10
+16 11 undefined nhi aayega kuki function nhi hai
+18 30
+20 30 11 nhi aayega kuki function nhi hai
+
+
+for eg2-
+function fn(){
+  let a = 10;
+  console.log("13", a);
+  a++;
+  if(true){
+    console.log("16", a);
+    let a = 30;
+    console.log("18", a);
+  }
+  console.log("20", a);
+}
+fn();
+
+13 10
+16 error
+18 30
+20 11

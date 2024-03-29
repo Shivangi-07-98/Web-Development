@@ -1,0 +1,20 @@
+function statement
+
+function fn1(){
+  console.log("I am statement");
+}
+
+function expression
+var fn2 = function(){
+  console.log("I am expression");
+}
+
+arrow function
+var fn3 = () => {
+  console.log("I am arrow")
+}
+
+IIFEE
+(function(){
+  console.log("I am IIFEE");
+})()

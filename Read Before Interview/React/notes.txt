@@ -1,3 +1,6 @@
+npm create vite@latest
+npx create-react-app .
+
 React is a library not a framework
 
 React directly dom ko affect nhi karta hai performance ko badhane ke liye wo virtual dom par kaam karta hai
@@ -33,4 +36,13 @@ Q. Testing
 unit testing
 test cases
 
-Q.  
+--------------------------------------------------
+Q. What is react. React history and current version of react js.
+Q. what is virtual dom and what is the difference between virtual dom and actual dom.
+Q. what is higher order component and its uses.
+Q. what is life cycle method. 4 stages
+Q. what is component and types of components and which one you prefer. class and functional
+Q. what are hooks. Have u ever created any custom hooks.
+Q. how to update a component in every second.
+Q. what is refs and can we use this in functional component.
+Q. is there any way to pass data from parent to child and child to parent component. is it legal.

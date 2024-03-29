@@ -1,0 +1,89 @@
+Javascript is a synchronous() single-threaded language (ek baar mai ek kaam)
+javascript single threaded - yes
+node js single threaded - yes
+  
+*setTimeout and console.log is not part of javascript 
+
+Everything in javascript happens inside an execution context
+*Every piece of code run inside a bubble known as execution context
+*code is executed in a stack known as call stack
+
+*Default execution context : global execution context -> It is created when code starts running and it is created for the code that's in global area : [the functions and variables that are not inside any other function]
+*New execution context : It will only be created when a function is called and destroyed when all the lines of that function are executed
+
+execution context
+global code/global area - piece of code that is not inside another function
+ye pehle run hota hai
+uske liye global execution context bnta hai
+
+*execution context is only created when a function is called
+made on top of global execution context
+
+*javascript always runs inside an environment
+browser -> global object is called window
+node js -> global object is called global
+
+lexical scope - 
+
+starting mai jb code chlta hai toh jo variables hai unke liye undefined set hota hai aur jo functions hai unke liye memory allocate hoti hai
+
+starting mai jitne variable hai unke andar undefined pada hoga
+fir jb line 1 (top to bottom) se code chlega tbh values assign hoti hai
+
+*function jahan pada hota hai uske just bahar ki value lega
+in this case fn2 will take value of outside i.e 20 and not value of fn1 
+for eg-
+
+var a = 20;
+function fn2(){
+  console.log("30 a ", a);
+}
+
+function fn1(){
+  var a = 10;
+  console.log("Inside c");
+  console.log("35 a ", 10);
+  fn2();
+}
+
+console.log("40 a ", a);
+fn1();
+console.log("40 a ", a);
+
+*this : it is different for every execution context
+*Lexical scope outer variables : a function will treat variable that are sitting outside it's function definition i.e. jo variable function ki body ke bahar likhe hote unko hi ye outer var ki tarah treat karta hai naaki unko jo function call ke bahar hote hai
+
+*execution runs in two phases : 
+1. memory allocation (hoisting) : 
+for that execution context
+-all variables will assigned : undefined
+-function statements are assigned memory in the heap
+2. code execution
+
+hoisting - eg1
+console.log("40 a ", a); 40 a undefined
+var a = 10;
+console.log("42 a ", a); 42 a 10
+function fn1(){
+  console.log("inside fn1", a); inside fn1 10
+  a = 20;
+}
+console.log("47 a ", a); 47 a 10
+fn1();
+console.log("49 a ", a); 49 a 20
+
+hoisting - eg2
+console.log("40 a ", a); 40 a undefined
+var a = 10;
+console.log("42 a ", a); 42 a 10
+function fn1(){
+  console.log("inside fn1", a); inside fn1 undefined
+  var a = 30;
+  console.log("inside fn1", a); inside fn1 30
+  a = 20;
+  console.log("inside fn1", a); inside fn1 20
+}
+console.log("47 a ", a); 47 a 10
+fn1();
+console.log("49 a ", a); 49 a 10
+
