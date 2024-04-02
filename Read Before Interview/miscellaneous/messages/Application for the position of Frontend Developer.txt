@@ -6,7 +6,6 @@ I hope you're doing well!
 I am writing to express my keen interest in the Frontend Developer position.
 
 Here's a little about myself:
-
 I'm Shivangi Kumari, and I have over a year of experience, currently working as a Frontend Developer at 18 Pixels India Pvt. Ltd. Additionally, I've worked on freelance projects. Prior to this, I worked as a Web Developer intern at Pepcoding for 6 months. I hold a BTech degree from JSS Academy of Technical Education, Noida.
 
 My Tech Skills: Javascript, HTML5, CSS3, React.js, Redux, Tailwind CSS, sass/scss, Bootstrap, Java, DSA, Git, Github.

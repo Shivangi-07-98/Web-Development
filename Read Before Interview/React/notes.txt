@@ -46,3 +46,18 @@ Q. what are hooks. Have u ever created any custom hooks.
 Q. how to update a component in every second.
 Q. what is refs and can we use this in functional component.
 Q. is there any way to pass data from parent to child and child to parent component. is it legal.
+Q. Functional components main benefits as a developer.
+Q. What is react router.
+Q. How to pass data between sibling components.
+history.push match.parents
+Q. What is redux
+Q. What is difference between react redux and react context api.
+Q. what is return sava
+Q. what is jest. what are the advantage of jest over jasmine.
+Q. server components 
+Q. what is jsx 
+Q. what are the limitations of react. and how to format it using react intel.
+Q. What are the technology to optimize react app performance.
+Q. what are the different way to style react components.
+Q. what are the rules that must be followed while using react hooks
+Q. what is prop drilling in react
