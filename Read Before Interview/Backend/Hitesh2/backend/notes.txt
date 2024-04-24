@@ -1,0 +1,3 @@
+import express from 'express'; (this syntax is module js)
+javascript ke andar do tarike hai files ko import krane ke ek hai common js aur ek hai module js
+package.json mai "type": "module",

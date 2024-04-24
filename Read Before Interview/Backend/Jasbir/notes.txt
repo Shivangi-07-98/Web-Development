@@ -1,0 +1,7 @@
+npm init -y
+npm i express
+npm i -g nodemon
+after this add this to package.json
+"scripts": {
+  "start": "nodemon server.js"
+  },

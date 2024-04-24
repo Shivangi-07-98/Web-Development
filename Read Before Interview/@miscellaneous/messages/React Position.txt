@@ -1,0 +1,23 @@
+Hello hruthik,
+
+I am writing to express my strong interest in the React Internship position you have available. Having reviewed the requirements and responsibilities outlined in your posting, I am confident that my skills and experience make me a perfect fit for the role.
+In fact, I have already completed a todo task to the one you mentioned in your posting. I have developed a todo application with features for editing, deleting, and adding tasks.You can find the project on my GitHub profile here.
+Also, I want you to check my self made project movies app here-
+https://github.com/Shivangi-07-98/Movies-App-latest
+In this React app I have added features of searching, sorting based on genres, pagination, added navbar footer and implemented react router to navigate to different pages. You can also check my other projects on my github.
+
+My Tech Skills: Javascript, HTML5, CSS3, React.js, Redux, Tailwind CSS, sass/scss, Bootstrap, Java, DSA, Git, Github.
+
+RESUME: https://drive.google.com/file/d/1U-vm1VbdgGkSvjIk7RSR7xJzcM3PQK-k/view?usp=sharing
+My Github Profile: https://github.com/Shivangi-07-98
+My Linkedin Profile: https://www.linkedin.com/in/shivangi-kumari-march1998/
+
+Also, I want to add one point:
+While I understand that the internship is offered at INR 10K per month, I am requesting a stipend of INR 22K to INR 25K per month for full-time. I believe this adjustment reflects my experience and dedication, and I am confident you will not be disappointed with this decision. With nearly a year of experience in frontend development, I am committed to delivering results that exceed expectations.
+
+Since I've the required tech skills for the open position. If given an opportunity, I'd be a great fit.
+I'm looking forward to hearing from you soon.
+
+Best Regards,
+Shivangi Kumari
++91 7379297067

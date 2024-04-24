@@ -1,0 +1,4 @@
+npm init
+npm i express
+"start": "node index.js"
+npm i dotenv
