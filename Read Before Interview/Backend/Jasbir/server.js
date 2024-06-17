@@ -1,7 +1,8 @@
 // require express
 const express = require("express");
-const app = express();
 // you have to write it -> app signifies your server
+const app = express();
+ 
 app.use(express.json());
 app.get("/sayhello", function(req, res){
   res.end("Hello from server");
@@ -9,6 +10,7 @@ app.get("/sayhello", function(req, res){
 app.get("/saybye", function(req, res){
   res.end("Bye from server");
 })
+
 // post route
 // req -> represents request
 // res -> represents response
@@ -37,11 +39,17 @@ app.get("/getSquare/:num1/:num2", function(req, res){
 
 
 
+
+
+
+
+
+
+ 
 // 3000 -> address of a server -> on a given machine
 app.listen(3000, function(){
   console.log("server started at port 3000");
 })
-console.log("heya");
 
 // if server file is running on same machine -> localhost:3000
 // postman is replacement for frontend -> used for backend testing

@@ -1,0 +1,8 @@
+npm i -D nodemon
+npm i -D prettier
+=> 2 files => .prettierrc, .prettierignore
+
+removed / from the end of this
+MONGODB_URI=mongodb+srv://shivangi:user123@cluster0.yak8kek.mongodb.net
+
+npm i mongoose express dotenv
