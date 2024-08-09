@@ -1,3 +1,12 @@
+// 1. node js ek environment hai jiske andar javascript chlti hai
+// 2. vanilla javascript -> normal javascript ko bolte hai
+// 3. Functions are called first class citizens -> Means functions are treated as a variables
+// 4. variable shadowing
+// Andar wale block ka variable shadow kar dega bahar wale block ke variable ko
+// illegal shadowing
+// agar bahar variable let se declared hai aur andar var se toh error aata hai cannot redeclare variable
+
+
 // Q1. What is javascript? what is the role of javascript engine?
 // Ans. Javascript is a programming language that is used for converting static web pages to interactive and dynamic web pages.
 // A javascript engine is a program present in web browsers that executes javascript code.
@@ -43,4 +52,12 @@
 
 // Q12. && -> both should be true, || -> one should be true
 
-// Q13. 
+// Q. If we create any tag name in html will it give error? if it works will it work like a span or a div?
+// Ans. It will be inline not block.
+// If we create any random tag which is not present/defined in html it will be inline.
+// whenever you give display flex on the parent childs will have display block automatically
+
+// Q. can you tell me the difference between if-else and ternary operator
+
+// Q. What is the difference between .map and .forEach in javascript?
+// Ans. .forEach does not return anything it return undefined

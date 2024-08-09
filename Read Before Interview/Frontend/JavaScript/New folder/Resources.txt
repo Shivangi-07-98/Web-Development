@@ -1,0 +1,96 @@
+1. javascript.info 
+arindam paul - javascript vm internals, eventloop, async and scopechains
+https://youtu.be/QyUFheng6J0?si=j8rzWSyuLi_t8ORX
+
+2. for dsa less than 100 questions are enough from leetcode
+top 75 leetcode questions
+https://www.teamblind.com/post/new-year-gift---curated-list-of-top-75-leetcode-questions-to-save-your-time-OaM1orEU
+
+3. css- from mdn
+cascading
+layouting
+specificity
+responsiveness
+initial containing block
+
+4. BigFrontend.Dev
+https://bigfrontend.dev/
+sort - most liked questions
+q130. create LazyMan()
+
+5. Web optimisations
+https://web.dev/learn/performance
+
+6. Frontend System Design
+https://www.youtube.com/channel/UC0qiieVBpjA6YODgIFf6Afg
+
+https://www.youtube.com/channel/UC6YpkaZsAcAvPNt4rLiS7dg
+
+7. React
+https://react.dev/learn
+
+----------------------------------------------------
+
+1. js questions-
+polyfills
+JS basics- 
+interview bit js questions
+you don't know js
+MDN docs
+
+2. focus on frontend data structures
+Strings, Arrays and trees are most highly asked
+Sorting and Searching algorithms
+
+3. Web performance - JSConf youtube channel
+CRP critical rendering path
+Debouncing/Throttling
+Event delegation/bubbling
+bundle splitting
+preload, preconnect, prefetch, prerender
+Web workers
+HTTP2
+Etag/cache-control
+response headers
+document fragment
+reflow
+image compression
+memory leak
+
+4. (rarely comes) Web Security - JSConf youtube channel
+Transfer-encoding
+same origin policy
+access control allow origin
+CORS
+content security policy
+CSRF
+referrer policy
+innerHTML
+X-XSS-protection
+X-frame-options
+
+5. (very imp) create a component in vanilla js
+to make a image carousel
+star component (reviews 5 star)
+comments section
+pagination
+search bar
+Accordion
+Navbar
+
+6. System Design HLD LLD
+accessibilty
+
+7. amazon leadership principle - behavioral questions
+
+8. frameworks related questions are not asked in faang so just use vanilla js
+
+---------------------------------------------------
+
+for machine coding round-
+GreatFrontend.com
+chirag goel
+work@tech
+
+Frontend end interview handbook
+sudheerj javascript interview questions

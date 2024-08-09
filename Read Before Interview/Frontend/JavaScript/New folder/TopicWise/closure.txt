@@ -12,3 +12,5 @@ Functions
 asynchronous : the function in which the intial and later part is executed initially and the between part is executed later
 
 When you have to do dependent tasks with async functions -> order of async function should be in serial
+
+A closure remembers the variables and scope of the outer function even after the outer function has finished running

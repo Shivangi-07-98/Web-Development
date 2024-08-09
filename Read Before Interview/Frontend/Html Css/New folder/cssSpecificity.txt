@@ -1,0 +1,7 @@
+CSS specificity is how the browser determines which CSS property value should be applied to an HTML element if there are competing selectors
+
+highest to lowest
+inline styles
+ids
+classes, attributes and pseudo classes
+elements and pseudo elements

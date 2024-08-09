@@ -1,0 +1,7 @@
+1. semantic HTML
+block level element mai inline aa skta but opp nhi
+2. CSS Specificity
+3. BEM
+4. SVGs or PNGs
+5. CSS animations
+6. 

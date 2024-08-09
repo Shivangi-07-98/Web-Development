@@ -1,6 +1,0 @@
-Q. If we create any tag name in html will it give error? if it works will it work like a span or a div?
-answer is it will be inline not block
-*if you create any random tag which is not present/defined in html it will be inline
-*whenever you give display flex on the parent childs will have display block automatically
-
-Q. can you tell me the difference between if-else and ternary operator

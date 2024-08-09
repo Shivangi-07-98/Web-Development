@@ -1,6 +1,53 @@
 npm create vite@latest
 npx create-react-app .
 
+make my trip-
+1. How to fetch data from a source in JS Optimize using debounce write code 
+2. What is the difference between debounce and throttle
+3. Differentiate between useEffect with a dependency and without any dependency ComponentDidMount componentDidUpdate
+4. What is closure and hoisting explain with examples
+5. How does react handle DOM manipulation reconciliation
+6. How to manage multiple states in react context api, Redux, useState
+7. To create a counter app in which one counter will move by 1 second and another will move by half second
+8. How to solve cross browser issues
+9. what is micro frontend. advantages
+10. Render to string
+RenderDomServer.renderToString();
+ReactDom.hydrate();
+11. Progressive hydration
+12. what is O Auth 2.0
+
+
+paytm-
+1. react life cycle
+2. react hooks
+3. create an accordion
+
+paypal-
+1. Difference between react element and react node
+
+1. types of hooks
+2. Lazy Loading
+3. Code splitting
+4. High order component low order component
+5. where to use state and prop
+
+
+
+
+
+
+
+
+
+
+
+
+
+lifecycle method, state vs ref, memoization, compostion, where can i use context API and Redux, 
+
+
+
 React is a library not a framework
 
 React directly dom ko affect nhi karta hai performance ko badhane ke liye wo virtual dom par kaam karta hai

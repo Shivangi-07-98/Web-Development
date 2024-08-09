@@ -1,0 +1,61 @@
+1. polyfill for filter
+2. Write polyfill of reduce 
+3. Explain and tell the difference between call, bind, apply
+4. Write polyfill of bind
+5. How is the keyword this different in different context
+6. What is closures
+7. javascript prototype
+8. method chaining in javascript
+9. infinite currying
+inheritance
+IIFE 
+closures
+implicit and explicit binding
+
+
+1. this
+2. Data types of javascript
+3. Null vs Undefined
+4. Apply call bind map
+5. Hoisting
+6. Event delegation
+7. Event Removal
+8. Event Bubbling
+9. Properties vs Attributes
+10. Ternary operators
+11. Promises vs Callbacks
+12. async await
+13. IIFE
+14. Closures
+15. == vs ===
+16. Object property object.create vs object.assign
+17. Scope- Global scope, Function scope, Block scope
+18. mutable properties immutable properties
+19. Types of objects boolean, array, sets, map 20. LRU cache using maps, sets
+
+21. Higher Order Functions
+22. loader function
+23. chaining
+
+Browser APIs- Local storage, Session storage, Cookies
+Rest APIs
+Performance
+Testing- Unit Testing, E2E Testing
+Web Accessibility- blind,  
+SEO- semantic html, 1 H1 
+CORS
+Task Runners
+HTTP vs HTTPS
+Github
+
+
+
+
+
+
+
+
+
+hoisting, closures, setTimeout, promises, this, bind ka polyfill, ES6, arrays methods, DOM, closures, promises, API's, ES6, eventloop, indexOf vs includes, object string, arrow functions, prototypes, error handling
+event delegation, debouncing, throttling
+codesandbox platform
