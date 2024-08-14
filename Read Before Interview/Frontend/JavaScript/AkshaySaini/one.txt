@@ -1,0 +1,141 @@
+Execution Context-------------------------------------------------------------------
+
+1. Everything in javascript happens inside an execution context-
+phase1- memory creation phase
+phase2- code execution phase 
+memory(variable environment) | code(thread of execution)
+for function whole code is stored in memory
+for var undefined is stored
+1.1. call stack maintains the order of execution of execution contexts
+
+*2. javascript is a synchronous single-threaded language- synchronous-from top to bottom or in a specific order 
+single-threaded-execute one command at a time
+
+Hoisting----------------------------------------------------------------------------
+
+Hoisting is a phenomenon in javascript by which you can access these variables And functions even before you have initialized it or you have put some value in it without any error
+
+Global Space- any code written inside js file but not inside function
+(function is in global space but code inside function is not in global space it is in local which deletes after it is executed)
+
+Global space = window = this
+a = window.a = this.a
+
+Browser-
+this === window
+
+undefined vs not defined------------------------------------------------------------------
+
+undefined if it has been declared but not yet assigned a value.
+not defined when it hasn't been declared
+
+
+Lexical Environment---------------------------------------------------------------------
+
+
+whenever an execution context is created a lexical environment is also created
+
+lexical environment is local memory along with the lexical environment of its parent
+
+* lexical environment of global points to null because it has no parent
+
+this whole chain of lexical environment is known as the scope chain
+if the scope chain is exhausted and variable is not found that means it is not inside the scope chain
+
+
+Temporal dead zone-------------------------------------------------------------------
+
+
+**let and const are also hoisted but in script not in global
+
+if we try to access any variable in let and const before its initialized (it is in Temporal dead zone) and gives error cannot access 'a' before initialization
+
+when let const variables are in memory creation phase and assigned value undefined from that phase to code execution when value is assigned to it is called Temporal dead zone  
+
+
+let const var---------------------------------------------------------------------
+
+
+let-
+1. cannot access let before initialization
+
+2. in let you can initialize value to it later on
+let a;
+a = 10;
+
+3. can assign value to let again
+let a = 10;
+a = 100;
+
+4. cannot be redeclared or cannot use let keyword multiple times
+let a = 10;
+let a = 100;
+or
+let a = 10;
+var a = 100; (cannot redeclare)
+
+
+const-
+1. cannot access const before initialization
+
+2. in const you have to initialize value to it at the same time 
+const a = 10;
+
+3. cannot assign value to const again
+const a = 10;
+a = 100;
+
+4. cannot be redeclared or cannot use const keyword multiple times
+const a = 10;
+const a = 100;
+or
+const  a = 10;
+var a = 100; (cannot redeclare)
+
+
+Block Scope-------------------------------------------------------------------------
+
+block = { }
+
+let and const are block scoped if written inside block 
+otherwise 
+let and const are script scoped
+var is function scoped if written inside function otherwise it is global scoped
+
+
+after block code is executed it is removed from the call stack
+
+**variable shadowing 
+if we declare var a = 100; outside and another var a = 20; in block 
+it updates the value to a = 20
+if we console it outside or in block we get 20 this is known as variable shadowing
+20 shadows 100
+
+** illegal shadowing- 
+let a = 20;
+{
+  var a = 20;
+}
+
+var is function scoped so its fine 
+let a = 20;
+function x() {
+  var a = 20;
+}
+
+
+Closures--------------------------------------------------------------------------------
+
+A closure is the combination of a function bundled together (enclosed) with reference to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.
+
+functions when returned from another function they still maintain their lexical scope, they remember where they were actually present
+
+not just function code was returned but closure was returned 
+so, closure enclosed (function along with its lexical scope) was returned 
+
+**defintion of closure- Function along with its lexical scope bundle together forms a closure
+
+
+Coojfdjhj-------------------------------------------------------------------------
+
+
