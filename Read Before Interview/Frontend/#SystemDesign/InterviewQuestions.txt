@@ -1,0 +1,9 @@
+1. Design a flight booking system Comp arch, Destination, Price
+2. when to use useCallback, useMemo and React.memo
+3. How will you structure a component which is recursively called
+4. What other frameworks did you use
+5. Explain about your projects and other interests you might be having
+
+paypal-
+1. Design a folder structure
+2. Decoupled input component

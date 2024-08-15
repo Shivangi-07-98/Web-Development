@@ -1,5 +1,101 @@
+React hooks-
+useState, useEffect with dependency array(if empty, if not there, if have some value), useContext, useReducer, useMemo, useCallback, useRef
+
+Higher Order Components-
+what is it?
+why do you use it?
+when to use it?
+how to use it?
+write code
+
+Life Cycle Methods of Components-
+class components
+3 phase
+mounting phase
+updating phase
+unmounting phase
+
+State Management (All about data)-
+-state/props
+-props drilling
+-context**
+
+Redux/Zustand-
+How it works?
+why do we need it?
+when do we need it?
+if your application really needs redux?
+redux toolkit (RTK)
+
+Custom Hooks-
+when to use it?
+why to use it?
+how to use it?
+code
+it makes your code clean, maintainable, readable, reusable
+eg- custom hook to use local storage
+
+Lazy Loading- highly asked
+code splitting*
+chunking
+suspense
+
+Virtual DOM-
+Reconciliation
+React Fiber
+How render works?
+Diffing Algorithm
+
+SSR vs CSR-
+(server side rendering vs client side rendering)
+SEO
+performance
+
+Routing (RBAC)-
+role based access controller
+nextjs has its own router inbuilt
+how do you manage protected routes*
+query params
+Dynamic routing*
+
+Testing- **
+react testing library
+unit testing
+
+Async Tasks-
+API calls
+Promises
+setTimeout, setInterval
+
+
+Reusability, Modularity, Testability, Readability-
+Why are you building higher order component you can say it is reusable modular testable
+
+Performance- **
+Lazy Loading
+asset optimization
+
+
+Accessibility- **
+
+
+Security- **
+
+
+
+Styling-
+
+
+
+
+
+
+
 npm create vite@latest
 npx create-react-app .
+
+React is a library not a framework
+
 
 make my trip-
 1. How to fetch data from a source in JS Optimize using debounce write code 
@@ -17,94 +113,6 @@ ReactDom.hydrate();
 11. Progressive hydration
 12. what is O Auth 2.0
 
-
-paytm-
-1. react life cycle
-2. react hooks
-3. create an accordion
-
 paypal-
 1. Difference between react element and react node
 
-1. types of hooks
-2. Lazy Loading
-3. Code splitting
-4. High order component low order component
-5. where to use state and prop
-
-
-
-
-
-
-
-
-
-
-
-
-
-lifecycle method, state vs ref, memoization, compostion, where can i use context API and Redux, 
-
-
-
-React is a library not a framework
-
-React directly dom ko affect nhi karta hai performance ko badhane ke liye wo virtual dom par kaam karta hai
-
-Hooks - 
-useState
-useEffect
-useContext
-useReducer
-useMemo
-useCallback
-useRef    
-class based component
-Mounting
-Updating
-Unmounting
-
-Q. State management
-
-Q. Custom Hooks. When to use it? Write code.
-
-Q. Lazy Loading
-
-Q. Virtual DOM
-
-Q. server side rendering vs client side rendering
-
-Q. Routing
-protected routes
-dynamic routing
-
-Q. Testing
-unit testing
-test cases
-
---------------------------------------------------
-Q. What is react. React history and current version of react js.
-Q. what is virtual dom and what is the difference between virtual dom and actual dom.
-Q. what is higher order component and its uses.
-Q. what is life cycle method. 4 stages
-Q. what is component and types of components and which one you prefer. class and functional
-Q. what are hooks. Have u ever created any custom hooks.
-Q. how to update a component in every second.
-Q. what is refs and can we use this in functional component.
-Q. is there any way to pass data from parent to child and child to parent component. is it legal.
-Q. Functional components main benefits as a developer.
-Q. What is react router.
-Q. How to pass data between sibling components.
-history.push match.parents
-Q. What is redux
-Q. What is difference between react redux and react context api.
-Q. what is return sava
-Q. what is jest. what are the advantage of jest over jasmine.
-Q. server components 
-Q. what is jsx 
-Q. what are the limitations of react. and how to format it using react intel.
-Q. What are the technology to optimize react app performance.
-Q. what are the different way to style react components.
-Q. what are the rules that must be followed while using react hooks
-Q. what is prop drilling in react

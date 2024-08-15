@@ -1,0 +1,46 @@
+no dsa round in - atlassian, cred
+
+1. 4Sum leetcode medium
+
+2. Find 2nd maximum number from array
+input [5, 10, 3, 20, 99, 100] 
+output 99
+
+3. Move zeroes to the end
+[8, 5, 0, 10, 0, 20] => [8, 5, 10, 20, 0, 0]
+
+4. check if pair with given sum is present
+[2, 1, 3, 6] sum = 3
+
+5. input  output
+26 Z
+51 AY
+52 AZ
+80 CB
+676 YZ
+702 ZZ
+705 AAC
+
+6. memoization
+0 1 1 2 3 5 8 13 21 34
+
+7. Linked Lists
+Hashmaps
+Queues, priority Queues
+Stacks
+Arrays
+Bubble sort
+Merge sort
+Binary search
+selection sort
+quick sort
+insertion sort
+Trees- least asked
+Graphs- least asked
+
+meta-------------------------------------
+
+you are asked to create an event emitter class it should support event subscribing
+hint- stack and Queues data structure
+BigFrontend.dev
+

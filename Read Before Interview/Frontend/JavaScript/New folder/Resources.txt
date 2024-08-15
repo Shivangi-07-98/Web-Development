@@ -13,7 +13,7 @@ specificity
 responsiveness
 initial containing block
 
-4. BigFrontend.Dev
+4. BigFrontend.Dev is like dsa of frontend
 https://bigfrontend.dev/
 sort - most liked questions
 q130. create LazyMan()
