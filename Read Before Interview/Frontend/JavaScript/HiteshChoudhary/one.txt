@@ -1,0 +1,72 @@
+primitive data types 7-(stack)
+(gives you copy)
+String
+Number
+Boolean
+null
+undefined
+Symbol
+BigInt
+
+non primitive-(heap)(reference type)
+(gives you reference)
+Array
+Objects
+Functions
+
+javascript is dynamically typed language
+
+-------------------------------------------------------------
+
+meaning of new keyword
+
+String- how to declare
+charAt, indexOf, subString, trim, slice, split, replace, includes, length, toUpperCase, toLowerCase
+
+Number-
+toString, toFixed, toPrecision, toLocaleString('en-IN'), 
+
+Math-
+abs(-4), round, ceil, floor, min, max, random(0 to 1 values)
+
+Date-
+let myDate = new Date();
+myDate.toString()
+
+let myDate = new Date(2023, 0, 23);
+let myDate = new Date(2023, 0, 23, 5, 3);
+let myDate = new Date("2023-01-14");
+let myDate = new Date("01-14-2023");
+myDate.getTime()
+
+myDate.toString()
+myDate.toLocaleString()
+
+let myTimeStamp = Date.now()
+
+---------------------------------------------------------
+
+Array- how to declare
+push, pop, unshift, shift, includes, indexOf, join, slice, splice, concat
+
+spread operator-
+let start = [1, 2, 3]
+let end = [4, 5, 6]
+let all = [...start, ...end]
+console.log(all);
+
+flat(depth) or flat(Infinity)
+isArray, from(converts into array), of
+
+console.log(Array.from("shivangi"))
+console.log(Array.from({name: "hitesh"})) interview ques
+
+-------------------------------------------------------
+
+objects-
+literal se no singleton
+constructor se singleton
+
+Object.create ko bola jata hai constructor method and issi ke andar singleton bnta hai
+
+
