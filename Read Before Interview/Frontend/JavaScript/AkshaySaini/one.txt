@@ -136,6 +136,93 @@ so, closure enclosed (function along with its lexical scope) was returned
 **defintion of closure- Function along with its lexical scope bundle together forms a closure
 
 
-Coojfdjhj-------------------------------------------------------------------------
+
+Web APIs-----------------------------------------------------------------
+
+
+setTimeout, document, fetch, console is not a part of javascript they are part of Browser
+
+microtask queue- all the callback functions that come through promises, (mutation observer) will go in microtask queue
+
+event loop- The event loop continuously checks the call stack and the callback queue. If the call stack is empty, the event loop takes the first task from the callback queue and pushes it onto the call stack, where it can be executed. 
+
+
+Higher Order Functions-----------------------------------------------------------------
+
+A function which takes another function as an argument or returns a function from it is known as higher order function
+
+function x(){
+  console.log("Namaste");
+}
+
+function y(x){
+  x();
+}
+
+y is higher order function and x is callback function
+
+
+Map, Filter, Reduce-----------------------------------------------------------------
+
+map, filter and reduce are higher order functions in javascript
+which takes another function as callback
+
+function isOdd(x) {
+    return x % 2;
+}
+
+For odd numbers, x % 2 will return 1 because odd numbers leave a remainder of 1 when divided by 2.
+For even numbers, x % 2 will return 0 because even numbers leave no remainder (remainder is 0).
+
+Since 1 is a truthy value in JavaScript, the function will return true for odd numbers.
+Since 0 is a falsy value in JavaScript, the function will return false for even numbers.
+So, isOdd(3) would return true, and isOdd(4) would return false.
+
+const output = arr.map(x => x.toString(2)); // No {} or return needed
+
+
+Callbacks-----------------------------------------------------------------
+
+callback hell- one callback inside another callback inside another api and our code start to grow horizontally instead of vertically and this structure is also known as pyramid of doom. Inversion of control is like you lose the control of your code when using callbacks.
+
+Whenever we have this callback function and we pass it to another function we are giving the control of our callback to some other function
+
+-Callbacks are like super powerful way of handling async operations in javascript.
+-Async operations in javascript exists because callbacks exist
+
+-While we are writing callbacks we are facing a lot of issues the two important issues that we face is first callback Hell (The callback inside callback inside callback a lot of nested callback And the code becomes unmaintainable and unreadable) and second is inversion of control (that we Lose control of our program Because we passed that callback function into another function and now we've given the control of the callback function to some other function And now we never know that function will ever execute our callback function or not)
+
+
+Promises--------------------------------------------------------------------------
+
+
+Promises are used to handle async operations in javascript
+
+-Earlier we used to pass a callback function to another function but now we are attaching the callback function to promise object
+
+A promise is an object representing the eventual completion or failure of an asynchronous operation.
+A promise is a returned object to which you attach callbacks, instead of passing callbacks into a function.
+
+We were passing a function inside another API and we were giving control of our program to some other API Which we wanted to avoid that was inversion of control And how did we solve it we basically Had a promise object and that promise object will be eventually Filled with a result of Async Operation that promise object
+
+And we don't pass a function inside any other function but We attach a callback function to that promise object and Whenever we have data inside or whenever the promise is resolved that Automatically that callback function will automatically be called by promises
+
+Promise gives us guarantee and trust in our whole transaction Because you can resolve promise just once and you can only have three States for promises either pending or fulfilled or rejected
+You can pass promise wherever you want to without caring about the mutability of it, it is immutable You cannot alter a promise if it is resolved So promise comes with a lot of trust
+There is one more issue using callbacks that is callback hell and We can use promise chaining to handle that type of issue
+
+
+Promises-----------------------------------------------------------------
+
+Promise.all([p1, p2, p3])
+Promise.allSettled([p1, p2, p3])
+Promise.race([p1, p2, p3])
+Promise.any([p1, p2, p3])
+
+
+Async Await--------------------------------------------------------------
+
+How is async function different from normal functions- async functions always returns a promise
+
 
 
