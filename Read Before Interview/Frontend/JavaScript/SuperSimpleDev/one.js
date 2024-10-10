@@ -78,4 +78,5 @@ console.log(Math.round(2.2));
 // setTimeout(function(){
 //    console.log('timeout');
 // }, 3000);
-// setTimeout will wait for 3 sec and then call this function 
+// setTimeout will wait for 3 sec and then call this function
+

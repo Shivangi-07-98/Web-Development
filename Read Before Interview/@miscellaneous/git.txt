@@ -112,3 +112,10 @@
 // files that you don't want to put on github add it in .gitignore file by name
 
 // git submodule add <url> Netflix Clone
+
+-----------------------------------------------------------------------------------------
+
+To get all the code from the dev branch into the shivangi branch 
+git checkout shivangi
+git pull origin dev
+

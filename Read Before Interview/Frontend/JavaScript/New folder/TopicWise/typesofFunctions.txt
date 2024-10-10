@@ -1,5 +1,4 @@
 function statement
-
 function fn1(){
   console.log("I am statement");
 }

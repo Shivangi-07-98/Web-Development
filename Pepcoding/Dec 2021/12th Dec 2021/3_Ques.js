@@ -59,3 +59,4 @@ console.log(ans);
 
 let ans2 = arr.map((v, i, oarr) => v.gender == 'F' && v.age >=20 && v.age <= 30);
 console.log(ans2);
+
